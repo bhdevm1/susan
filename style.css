@@ -197,10 +197,6 @@ align-items: center;
 width: 100%;
 padding-top: 5px;
 }
-h2 .text-wire{
-    font-family:  'Roboto Mono', monospace, 'Poppins', sans-serif;
-}
-
 /* wareframe e mapa mental */
 #image1{
 background-image: url(midias/mapa.jpeg);
@@ -557,6 +553,7 @@ footer {
     color: #102772;
     text-align: center;
     align-items: center;
+    font-family:  'Roboto Mono', monospace, 'Poppins', sans-serif;
     margin: 2rem 1rem 0 1rem;
 
   
