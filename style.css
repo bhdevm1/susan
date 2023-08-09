@@ -434,9 +434,15 @@ background-image: url(midias/Untitled.jpg);
     color: #102772;
     margin: 30px 0 30px 30px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
     
+  }
+   #card-container-form{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .span{
     font-size: 2rem;
