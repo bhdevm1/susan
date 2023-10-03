@@ -352,8 +352,6 @@ background-image: url(midias/mapa.jpeg);
 background-image: url(midias/Untitled.jpg);
 }
 
-
-
 .image-w{
       width: 210px;
       height: 300px;
@@ -429,20 +427,20 @@ background-image: url(midias/Untitled.jpg);
       
   }
   .card-text-form{
-    width: 50%;
-    letter-spacing: 1px;
-    color: #102772;
-    margin: 30px 0 30px 30px;
-    font-weight: 400;
-    font-size: 2rem;
-    text-align: left;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
    #card-container-form{
     display: inline-block;
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  .form-4{
+    display: flex;
+    justify-content: center;
   }
   .span{
     font-size: 2rem;
@@ -563,8 +561,6 @@ footer {
     margin: 2rem 1rem 0 1rem;
 }
 
-  
-}
 .wire{
   height: auto;
   width: auto;
@@ -577,7 +573,7 @@ footer {
 }
 
 .form-conteiner{
-  display: flexbox;
+  display: flex;
  
 }
 .star-rating {
@@ -625,12 +621,12 @@ display: flex;
 justify-content: space-between;
 
 }
-
 #form-2{
 
 float: left;
 margin-right: 10rem;
 }
+
 df-messenger {
 --df-messenger-bot-message: #050a4e;
 --df-messenger-button-titlebar-color: #878fac;
