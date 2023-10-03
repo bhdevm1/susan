@@ -326,6 +326,11 @@ display: flex;
 justify-content: center;
 }
 
+.form-4{
+  display: flex;
+  justify-content: center;
+}
+
 /* Cards responsivos */
 
 @media screen and (max-width:768px){
@@ -432,7 +437,7 @@ background-image: url(midias/Untitled.jpg);
     align-items: center;
     text-align: center;
   }
-   #card-container-form{
+   .card-container-form{
     display: inline-block;
     justify-content: center;
     align-items: center;
